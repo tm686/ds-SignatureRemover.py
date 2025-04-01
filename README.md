@@ -9,7 +9,7 @@ python3 remove_signature.py saml-response.xml
 The new file will be created as cleaned_(input_file)
 
 
-When It Might Not Work:
+## When It Might Not Work:
 If the file has namespaced variations (like sig:Signature instead of ds:Signature)
 
 If the XML is malformed (missing closing tags)
